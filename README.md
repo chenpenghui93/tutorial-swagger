@@ -17,8 +17,7 @@
 2.创建配置类  
   ```
   @Configuration  
-  @EnableSwagger2  
-  @EnableSwaggerBootstrapUI  
+  @EnableSwagger2   
   public class SwaggerAutoConfiguration {
       @Bean
       public Docket createRestApi() {
